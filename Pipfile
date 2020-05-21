@@ -16,6 +16,7 @@ numpy = "==1.18.1"
 flask = "==1.1.2"
 emoji = "==0.5.4"
 os = "*"
+jsonpickle = "==1.4.1"
 
 [requires]
 python_version = "3.6"
