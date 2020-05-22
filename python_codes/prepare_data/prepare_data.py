@@ -67,6 +67,7 @@ from time import time
 import json
 import requests
 from aspect_extraction.aspect_extraction import aspect_extraction
+print("done until here")
 import mapper
 from run_extraction.init_spacy import init_spacy
 from run_extraction.init_nltk import init_nltk
