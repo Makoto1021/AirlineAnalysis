@@ -9,7 +9,6 @@ import jsonpickle
 
 
 # -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
-cd = os.getcwd()
 ATOKEN = open("/Users/mmiyazaki/Documents/My project/Airline_analysis/python_codes/get_data/credentials/atoken.txt","r").read()
 ASECRET = open("/Users/mmiyazaki/Documents/My project/Airline_analysis/python_codes/get_data/credentials/asecret.txt","r").read() 
 CKEY = open("/Users/mmiyazaki/Documents/My project/Airline_analysis/python_codes/get_data/credentials/ckey.txt","r").read()

@@ -5,7 +5,7 @@ import datetime
 from dateutil import parser
 
 # Parse timestamp column
-df = pd.read_csv('/Users/mmiyazaki/Documents/My project/Airline_analysis/python_codes/data/raw_tweets.csv')
+df = pd.read_csv('/Users/mmiyazaki/Documents/My project/Airline_analysis/src/data/raw_tweets.csv')
 df["timestamp"] = df["timestamp"].apply(parser.parse)
 print("timestamp parsed")
 
@@ -27,28 +27,7 @@ print("URL removed")
 df["links"]=df["links"].str.replace("[", "").replace("]", "").replace("'", "")
 print("links tidied up")
 
-# remove special characters
-df["text"] = df["text"].str.replace("[", " ")
-df["text"] = df["text"].str.replace("]", " ")
-df["text"] = df["text"].str.replace("!", " ")
-df["text"] = df["text"].str.replace("~", " ")
-df["text"] = df["text"].str.replace("#", " ")
-df["text"] = df["text"].str.replace("&", " and ")
-df["text"] = df["text"].str.replace("*", " ")
-df["text"] = df["text"].str.replace("+", " ")
-df["text"] = df["text"].str.replace("-", " ")
-df["text"] = df["text"].str.replace("/", " and ")
-df["text"] = df["text"].str.replace("|", " ")
-df["text"] = df["text"].str.replace("{", " ")
-df["text"] = df["text"].str.replace("}", " ")
-df["text"] = df["text"].str.replace("_", " ")
-df["text"] = df["text"].str.replace("(", " ")
-df["text"] = df["text"].str.replace(")", " ")
-df["text"] = df["text"].str.replace(">", " ")
-df["text"] = df["text"].str.replace("<", " ")
-df["text"] = df["text"].str.replace("=", " ")
-df["text"] = df["text"].str.replace("@", " ")
-df["text"] = df["text"].str.replace("^", " ")
+
 
 # Normalize text
 df["text"] = df["text"].str.lower()
@@ -67,15 +46,11 @@ from time import time
 import json
 import requests
 from aspect_extraction.aspect_extraction import aspect_extraction
-print("done until here")
 import mapper
 from run_extraction.init_spacy import init_spacy
 from run_extraction.init_nltk import init_nltk
 
-# -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
-# Read recipe inputs
-tweets_noURL = dataiku.Dataset("tweepy_prep")
-tweets_noURL_df = tweets_noURL.get_dataframe()
+
 
 # -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
 def main(arg, text_column, review_id, product_id, data, folder_path):
@@ -120,14 +95,13 @@ def main(arg, text_column, review_id, product_id, data, folder_path):
 
 # -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
 # Write recipe outputs
-aspect_sentiment_pairs = dataiku.Folder("tweepy_aspect_sentiment_pairs")
+# aspect_sentiment_pairs = dataiku.Folder("tweepy_aspect_sentiment_pairs")
 # -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
-folder_path = aspect_sentiment_pairs.get_path()
-
+folder_path = "/Users/mmiyazaki/Documents/My project/Airline_analysis/src/data"
 
 # -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
 aspect_list = main(sys.argv[1], text_column = "text", review_id = 'tweet_id',
-     product_id = 'company', data = tweets_noURL_df, folder_path = folder_path)
+     product_id = 'company', data = df, folder_path = folder_path)
 
 """
 processed = []

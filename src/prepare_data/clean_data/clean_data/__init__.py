@@ -2,7 +2,6 @@ import pandas as pd
 from sys import argv
 import re
 from clean_data.demojify import demojify
-import dataiku
 
 #Input file name as argv to run
 
@@ -45,6 +44,29 @@ def clean_data(df, text_column):
     
     # removing emojis
     df[text_column]=df[text_column].apply(demojify)
+
+    # remove special characters
+    df[text_column] = df[text_column].str.replace("[", " ")
+    df[text_column] = df[text_column].str.replace("]", " ")
+    df[text_column] = df[text_column].str.replace("!", " ")
+    df[text_column] = df[text_column].str.replace("~", " ")
+    df[text_column] = df[text_column].str.replace("#", " ")
+    df[text_column] = df[text_column].str.replace("&", " and ")
+    df[text_column] = df[text_column].str.replace("*", " ")
+    df[text_column] = df[text_column].str.replace("+", " ")
+    df[text_column] = df[text_column].str.replace("-", " ")
+    df[text_column] = df[text_column].str.replace("/", " and ")
+    df[text_column] = df[text_column].str.replace("|", " ")
+    df[text_column] = df[text_column].str.replace("{", " ")
+    df[text_column] = df[text_column].str.replace("}", " ")
+    df[text_column] = df[text_column].str.replace("_", " ")
+    df[text_column] = df[text_column].str.replace("(", " ")
+    df[text_column] = df[text_column].str.replace(")", " ")
+    df[text_column] = df[text_column].str.replace(">", " ")
+    df[text_column] = df[text_column].str.replace("<", " ")
+    df[text_column] = df[text_column].str.replace("=", " ")
+    df[text_column] = df[text_column].str.replace("@", " ")
+    df[text_column] = df[text_column].str.replace("^", " ")
     
 
     #replace multiple spaces with single space
@@ -56,12 +78,3 @@ def clean_data(df, text_column):
 
 
     return(df)
-#
-# if __name__ == '__main__':
-#     #file_name = str(argv[1])
-#     #df = read_data()
-#
-#
-#     out_name = "CLEANED_"+file_name
-#
-#     df.to_csv(out_name, sep='\t', index=False)

@@ -1,10 +1,18 @@
 import spacy
-import dataiku
 import ast
 
-stopwords = dataiku.get_custom_variables(typed=True)['stopwords']
 
-exclude_stopwords = dataiku.get_custom_variables(typed=True)['exclude_stopwords']
+l = []
+
+with open("/Users/mmiyazaki/Documents/My project/Airline_analysis/src/data/stopwords.txt")  as file_in:
+    stopwords = []
+    for line in file_in:
+        stopwords.append(line.replace('\n', ""))
+
+with open("/Users/mmiyazaki/Documents/My project/Airline_analysis/src/data/exclude_stopwords.txt")  as file_in:
+    exclude_stopwords = []
+    for line in file_in:
+        exclude_stopwords.append(line.replace('\n', ""))
 
 def init_spacy(model_path):
     print("\nLoading spaCy Model....")

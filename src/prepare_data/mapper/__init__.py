@@ -1,8 +1,7 @@
 import json
 import sys
-
 from time import time
-import ijson
+# import ijson
 
 
 def map(file_input, file_output):

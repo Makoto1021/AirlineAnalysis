@@ -21,6 +21,7 @@ jupyter = "*"
 ipykernel = "*"
 python-dateutil = "*"
 spacy = "==2.2.3"
+datetime = "*"
 
 [requires]
 python_version = "3.6"

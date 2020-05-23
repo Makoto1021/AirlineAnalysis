@@ -1,5 +1,4 @@
 #import enchant
-import dataiku
 import ast
 import pandas as pd
 from aspect_extraction.extract_rule1 import extract_rule1
@@ -10,7 +9,12 @@ from aspect_extraction.extract_rule5 import extract_rule5
 from aspect_extraction.extract_rule6 import extract_rule6
 from aspect_extraction.extract_rule7 import extract_rule7
 
-prod_pronouns = dataiku.get_custom_variables(typed=True)['prod_pronouns']
+prod_pronouns =  [
+    "it",
+    "this",
+    "they",
+    "these"
+  ],
 
 def apply_extraction(row, nlp, sid, text_column, review_id, product_id):
     review_body = row[text_column]
