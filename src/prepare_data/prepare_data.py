@@ -53,7 +53,7 @@ from run_extraction.init_nltk import init_nltk
 
 
 # -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
-def main(arg, text_column, review_id, product_id, data, folder_path):
+def main(text_column, review_id, product_id, data, folder_path):
     model_path= dataiku.get_custom_variables()['model_path']
     time1 = time()
     nlp = init_spacy(model_path)
@@ -61,7 +61,7 @@ def main(arg, text_column, review_id, product_id, data, folder_path):
     time2 = time()
     print("----------------***----------------")
     print("\nExtracting aspect pairs")
-    aspect_list = aspect_extraction(nlp, sid, arg, data,
+    aspect_list = aspect_extraction(nlp, sid, data,
                                         text_column = text_column,
                                         review_id = review_id,
                                         product_id = product_id,
@@ -100,7 +100,7 @@ def main(arg, text_column, review_id, product_id, data, folder_path):
 folder_path = "/Users/mmiyazaki/Documents/My project/Airline_analysis/src/data"
 
 # -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
-aspect_list = main(sys.argv[1], text_column = "text", review_id = 'tweet_id',
+aspect_list = main(text_column = "text", review_id = 'tweet_id',
      product_id = 'company', data = df, folder_path = folder_path)
 
 """
