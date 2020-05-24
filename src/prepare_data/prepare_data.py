@@ -4,18 +4,6 @@ import numpy as np
 import datetime
 from dateutil import parser
 
-
-import os
-import sys
-import spacy
-from time import time
-import json
-import requests
-from aspect_extraction.aspect_extraction import aspect_extraction
-import mapper
-from run_extraction.init_spacy import init_spacy
-from run_extraction.init_nltk import init_nltk
-
 def prepare_data():
         
     # Parse timestamp column
@@ -41,8 +29,6 @@ def prepare_data():
     df["links"]=df["links"].str.replace("[", "").replace("]", "").replace("'", "")
     print("links tidied up")
 
-
-
     # Normalize text
     df["text"] = df["text"].str.lower()
     print("text normalized")
@@ -53,11 +39,20 @@ def prepare_data():
     print("short tweets removed")
 
 
-
+    import os
+    import sys
+    import spacy
+    from time import time
+    import json
+    import requests
+    from aspect_extraction.aspect_extraction import aspect_extraction
+    import mapper
+    from run_extraction.init_spacy import init_spacy
+    from run_extraction.init_nltk import init_nltk
 
     model_path = "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/en_core_web_lg/en_core_web_lg-2.2.5"
     nlp = init_spacy(model_path)
-    # -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
+
     def main(nlp, text_column, review_id, product_id, data, folder_path):
         time1 = time()
         sid = init_nltk()

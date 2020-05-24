@@ -10,18 +10,16 @@ def remove_URL(text):
         text = re.sub(r'twitter\.com\S+', '', text)
         return text
 
-
 import os
 import sys
 import spacy
 from time import time
 import json
 import requests
-# from aspect_extraction.aspect_extraction import aspect_extraction
-import lib.aspect_extraction
-import mapper
-from run_extraction.init_spacy import init_spacy
-from run_extraction.init_nltk import init_nltk
+from prepare_data.lib.aspect_extraction import aspect_extraction
+import prepare_data.lib.aspect_extraction.mapper as mapper
+from prepare_data.lib.run_extraction.init_spacy import init_spacy
+from prepare_data.lib.run_extraction.init_nltk import init_nltk
 def main_function(nlp, text_column, review_id, product_id, data, folder_path):
     time1 = time()
     sid = init_nltk()
@@ -61,8 +59,8 @@ def main_function(nlp, text_column, review_id, product_id, data, folder_path):
 
 
 from nltk.stem import WordNetLemmatizer
-from aspect_clustering.vector_dist import vector_dist
-from run_extraction.init_spacy import init_spacy
+from prepare_data.lib.aspect_clustering.vector_dist import vector_dist
+from prepare_data.lib.run_extraction.init_spacy import init_spacy
 def groupby_nouns(df):
     with open("/Users/mmiyazaki/Documents/My project/Airline_analysis/src/data/companies.txt")  as file_in:
         company_list = []
@@ -71,11 +69,14 @@ def groupby_nouns(df):
 
     company_list_lower = [x.lower() for x in company_list]
     dictionary = dict(zip(company_list_lower, company_list))
-    temp = df[df.noun.str.lower().isin(company_list_lower)][df.product_id.str.lower() != df.noun.str.lower()]
+    # temp = df[df.noun.str.lower().isin(company_list_lower)][df.product_id.str.lower() != df.noun.str.lower()]
+    temp = df[df.noun.str.lower().isin(company_list_lower)]
+    temp = temp[temp.product_id.str.lower() != temp.noun.str.lower()]
+
     index_list = temp.index
     df_replace = pd.DataFrame(df.loc[df.index.isin(index_list), ["product_id", "noun"]])
     df_replace = df_replace.replace({"noun": dictionary})
-    df.loc[df.index.isin(index_list), "product_id"] = df_replace.noun
+    df.loc[df.index.isin(index_list), "product_id"] = df_replace["noun"]
 
     lemmatizer = WordNetLemmatizer()
     df['noun_lemmatized'] = df.noun.str.lower().apply(lemmatizer.lemmatize)
@@ -93,7 +94,7 @@ def weighted_ave(x):
     d['weighted_ave_tb'] = (x["mean_polarity_textblob"] * x["count"]).sum() / x["count"].sum()
     return pd.Series(d, index=['weighted_ave_nltk', 'weighted_ave_tb'])
 
-def categorise_nouns(df):
+def categorise_nouns(df, nlp):
     punctuality_vec = nlp('punctuality').vector
     food_vec = nlp('food').vector
     luggage_vec = nlp('luggage').vector
@@ -182,9 +183,9 @@ def prepare_data():
 
 
     #group by nouns
-    df_grouped = groupby_nouns(df)
+    df_grouped = groupby_nouns(AS_pairs_df)
     print("There are %d nouns extracted" %(df_grouped.shape[0]))
 
     # categorise nouns
-    df_categorised = categorise_nouns(df)
+    df_categorised = categorise_nouns(df=df_grouped, nlp=nlp)
     df_categorised.to_csv("/Users/mmiyazaki/Documents/My project/Airline_analysis/src/data/df_categorised.csv")
