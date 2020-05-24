@@ -3,14 +3,14 @@ import pandas as pd
 import tweepy
 import sys
 import os
-import jsonpickle
+# import jsonpickle
 
 
 
 def get_data():
 
-    ATOKEN = open("/Users/mmiyazaki/Documents/My project/Airline_analysis/src/get_data/credentials/atoken.txt","r").read()
-    ASECRET = open("/Users/mmiyazaki/Documents/My project/Airline_analysis/src/get_data/credentials/asecret.txt","r").read() 
+    # ATOKEN = open("/Users/mmiyazaki/Documents/My project/Airline_analysis/src/get_data/credentials/atoken.txt","r").read()
+    # ASECRET = open("/Users/mmiyazaki/Documents/My project/Airline_analysis/src/get_data/credentials/asecret.txt","r").read() 
     CKEY = open("/Users/mmiyazaki/Documents/My project/Airline_analysis/src/get_data/credentials/ckey.txt","r").read()
     CSECRET = open("/Users/mmiyazaki/Documents/My project/Airline_analysis/src/get_data/credentials/csecret.txt","r").read()
 
