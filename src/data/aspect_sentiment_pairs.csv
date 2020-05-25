@@ -1,356 +1,326 @@
 ,product_id,review_id,noun,adj,rule,polarity_nltk,polarity_textblob
-0,Air France,1264564323579559940,forces,armed,1,0.0,0.0
-1,Air France,1264564323579559940,way,secure,1,0.34,0.4
-2,Air France,1264562630838161409,traffic,domestic,1,0.0,0.0
-3,Air France,1264562555990577152,traffic,domestic,1,0.0,0.0
-4,Air France,1264561558954348544,traffic,domestic,1,0.0,0.0
-5,Air France,1264560158736334849,traffic,domestic,1,0.0,0.0
-6,Air France,1264559445591363585,minister,french,1,0.0,0.0
-7,Air France,1264559445591363585,traffic,domestic,1,0.0,0.0
-8,Air France,1264559445591363585,mail,malay,1,0.0,0.0
-9,Air France,1264558154135658503,traffic,domestic,1,0.0,0.0
-10,Air France,1264556771504504832,traffic,domestic,1,0.0,0.0
-11,Air France,1264555769686396928,traffic,domestic,1,0.0,0.0
-12,Air France,1264554694422040577,traffic,domestic,1,0.0,0.0
-13,Air France,1264553568469729280,traffic,domestic,1,0.0,0.0
-14,Air France,1264552122940559360,flights,direct,1,0.0,0.1
-15,Air France,1264551996499079169,traffic,domestic,1,0.0,0.0
-16,Air France,1264550987953364992,traffic,domestic,1,0.0,0.0
-17,Air France,1264550986976071680,traffic,domestic,1,0.0,0.0
-18,Air France,1264550984534986752,traffic,domestic,1,0.0,0.0
-19,Air France,1264549801367986176,air,hot,1,0.0,0.25
-20,Air France,1264549598573412353,traffic,domestic,1,0.0,0.0
-21,Air France,1264548877123887104,article,new,1,0.0,0.13636363636363635
-22,Air France,1264548877123887104,traffic,domestic,1,0.0,0.0
-23,Air France,1264548116021350400,traffic,domestic,1,0.0,0.0
-24,Air France,1264547896034197505,traffic,domestic,1,0.0,0.0
-25,Air France,1264546818555121664,dame,grand,1,0.4588,0.5
-26,Air France,1264546818555121664,lame,little,1,0.0,-0.1875
-27,Air France,1264546814415388672,dame,grand,1,0.4588,0.5
-28,Air France,1264546814415388672,lame,little,1,0.0,-0.1875
-29,Air France,1264546810283962370,dame,grand,1,0.4588,0.5
-30,Air France,1264546810283962370,lame,little,1,0.0,-0.1875
-31,Air France,1264546155821780996,speed,high,1,0.0,0.16
-32,Air France,1264545062433837062,traffic,domestic,1,0.0,0.0
-33,Air France,1264544794572972035,2,good,3,0.4404,0.7
-34,Air France,1264544780110966784,bbcnews,happy,1,0.5719,0.8
-35,Air France,1264544780110966784,vests,yellow,1,0.0,0.0
-36,Air France,1264544632089612288,day,very hot,1,0.0,0.325
-37,Air France,1264544238563471361,rifle,good,1,0.4404,0.7
-38,Air France,1264543307536822273,traffic,domestic,1,0.0,0.0
-39,Air France,1264542572887883777,flights,domestic,1,0.0,0.0
-40,Air France,1264542572887883777,air france,not high,3,0.0,-0.08
-41,Air France,1264542572887883777,air france,not probably,4,0.0,0.0
-42,Air France,1264541940449771528,recovery,green,1,0.0,-0.2
-43,Air France,1264541940449771528,flight,domestic,1,0.0,0.0
-44,Air France,1264540599082012673,use,regular,1,0.0,0.0
-45,Air France,1264539248759377920,emissions,domestic,1,0.0,0.0
-46,Air France,1264539148603572232,traffic,domestic,1,0.0,0.0
-47,Air France,1264539013286952961,plan,social,1,0.0,0.03333333333333333
-48,Air France,1264539013286952961,part,great,1,0.6249,0.8
-49,Air France,1264539013286952961,wash,green,1,0.0,-0.2
-50,Air France,1264537876072501250,traffic,domestic,1,0.0,0.0
-51,Air France,1264537348487905280,day,memorial,1,0.0,0.0
-52,Air France,1264537022645100545,news,good,1,0.4404,0.7
-53,Air France,1264537022645100545,davewallsworth,round,1,0.0,-0.2
-54,Air France,1264537022129008640,traffic,domestic,1,0.0,0.0
-55,Air France,1264536905070370816,transformation,economic,1,0.0,0.2
-56,Air France,1264536905070370816,incentives,right,1,0.0,0.2857142857142857
-57,Air France,1264536905070370816,this,type,7,0.0,0.0
-58,Air France,1264536739085004800,emissions,domestic,1,0.0,0.0
-59,Air France,1264533872001404932,traffic,domestic,1,0.0,0.0
-60,Air France,1264532778911227904,france,sequester,3,0.0,0.0
-61,Air France,1264531551867465728,traffic,domestic,1,0.0,0.0
-62,Air France,1264530976232878085,traffic,domestic,1,0.0,0.0
-63,Air France,1264530936152166400,traffic,domestic,1,0.0,0.0
-64,Air France,1264530469820874752,traffic,domestic,1,0.0,0.0
-65,Air France,1264530467774017536,traffic,domestic,1,0.0,0.0
-66,Air France,1264530410354159616,traffic,domestic,1,0.0,0.0
-67,Air France,1264529356312973313,twitter,good,1,0.4404,0.7
-68,Air France,1264529356312973313,it,sunday,7,0.0,0.0
-69,Air France,1264529147705135104,traffic,domestic,1,0.0,0.0
-70,Air France,1264528741855682561,it,hopefully,4,0.4019,0.0
-71,Air France,1264527592868044801,traffic,domestic,1,0.0,0.0
-72,Air France,1264527473133355009,traffic,domestic,1,0.0,0.0
-73,Air France,1264526963470774273,traffic,domestic,1,0.0,0.0
-74,Air France,1264525684434706432,traffic,domestic,1,0.0,0.0
-75,Air France,1264525314262102023,traffic,domestic,1,0.0,0.0
-76,Air France,1264525308146876422,traffic,domestic,1,0.0,0.0
-77,Air France,1264524624617930752,traffic,domestic,1,0.0,0.0
-78,Air France,1264524056205733889,traffic,domestic,1,0.0,0.0
-79,Air France,1264523839150661633,traffic,domestic,1,0.0,0.0
-80,Air France,1264523371804610561,traffic,domestic,1,0.0,0.0
-81,Air France,1264522887714738176,traffic,domestic,1,0.0,0.0
-82,Air France,1264519885062881286,airlines,weakest,1,-0.5106,0.0
-83,Air France,1264519885062881286,ci,normal,1,0.0,0.15
-84,Air France,1264519281502498817,traffic,domestic,1,0.0,0.0
-85,Air France,1264517184023396352,traffic,domestic,1,0.0,0.0
-86,Air France,1264515551193415680,bombs,incendiary,1,0.0,0.0
-87,Air France,1264515551193415680,targets,german,1,0.0,0.0
-88,Air France,1264507059292319744,flights,short,1,0.0,0.0
-89,Air France,1264501678516121600,range,short,1,0.0,0.0
-90,Air France,1264499128916234241,day,amazing,1,0.5859,0.6000000000000001
-91,Air France,1264499128916234241,air,fresh,1,0.3182,0.3
-92,Air France,1264499128916234241,meaume,perfect,7,0.5719,1.0
-93,Air France,1264495231967342592,sta,western,1,0.0,0.0
-94,Air France,1264495231967342592,quality,nt sta,7,0.0,0.0
-95,Air France,1264488886291632128,simulator,additional,1,0.0,0.0
-96,Air France,1264486174963490817,italian air force,italian,1,0.0,0.0
-97,Air France,1264486174963490817,flight,33fe92,4,0.0,0.0
-98,Air France,1264478939029913606,ship,french,1,0.0,0.0
-99,Air France,1264458518922506240,print,heavyweight,1,0.0,0.0
-100,Air France,1264392646254039040,this,ridiculous,3,-0.3612,-0.3333333333333333
-101,Air France,1264391069384523778,one,cheapest,1,0.0,0.0
-102,Air France,1264364320336433153,plans,reciprocal,1,0.0,0.0
-103,Air France,1264363210754478080,matchbox 1981,vintage,1,0.0,0.0
-104,Air France,1264363210754478080,matchbox,boxed,1,0.0,0.0
-105,Air France,1264357999184883714,nay,royal,1,0.0,0.0
-106,Air France,1264357999184883714,ships,all available,1,0.0,0.4
-107,Air France,1264357999184883714,fr,occupied,1,0.0,0.0
-108,Air France,1264356440732397569,engineer,french,1,0.0,0.0
-109,Air France,1264356440732397569,liquefaction,industrial,1,0.0,0.0
-110,Air France,1264319647605837824,liveries,favorite,1,0.4588,0.5
-111,Air France,1264319647605837824,mentions,honourable,1,0.4767,0.0
-112,Air France,1264315112749502464,effect,immediate,1,0.0,0.0
-113,Air France,1264308476827877386,it,tit,7,0.0,0.0
-114,Air France,1264307689846439936,simulator,additional,1,0.0,0.0
-115,Air France,1264298951865446400,aircraft,british,1,0.0,0.0
-116,Air France,1264298951865446400,aircraft,french,1,0.0,0.0
-117,Air France,1264297176349507584,flight,operated,1,0.0,0.0
-118,Air France,1264295450225639427,question,really critical,1,-0.3804,0.0
-119,Air France,1264295450225639427,question,table,7,0.0,0.0
-120,Air France,1264292956707618818,pilot,hungover,3,0.0,0.0
-121,Air France,1264283175964065793,day,memorial,1,0.0,0.0
-122,Air France,1264282100456456192,offs,not lay,1,0.0,0.0
-123,Air France,1264282100456456192,they,con,3,0.0,0.0
-124,Air France,1264282100456456192,airlines,tight,4,0.0,-0.17857142857142858
-125,Air France,1264264904799858694,customers,very large,1,0.0,0.2785714285714286
-126,Air France,1264264904799858694,it,nonsense,7,-0.4019,0.0
-127,Air France,1264261500623093768,they,picki,3,0.0,0.0
-128,Air France,1264257588641873920,office,dutch,1,0.0,0.0
-129,Air France,1264257588641873920,purchase,irregular,3,0.0,0.0
-130,Air France,1264251070429171712,swakopmund preety place,preety,1,0.0,0.0
-131,Air France,1264249693749600256,plans,reciprocal,1,0.0,0.0
-132,Air France,1264245143915266048,flight,international,1,0.0,0.0
-133,Air France,1264238086524936192,system,internal,1,0.0,0.0
-134,Air France,1264235253486534661,honey,how great,1,0.6249,0.8
-135,Air France,1264224571269341184,flights,cheap,1,0.0,0.4
-136,Air France,1264214752193961984,effect,immediate,1,0.0,0.0
-137,Air France,1264214223317602306,question,very important,1,0.2716,0.52
-138,Air France,1264210329707347974,royal air force,royal,1,0.0,0.0
-139,Air France,1264209470608961536,effect,immediate,1,0.0,0.0
-140,Air France,1264175997122945026,initiative,fantastic,1,0.5574,0.4
-141,Air France,1264175997122945026,voucher,exchangeable,1,0.0,0.0
-142,Air France,1264175997122945026,flights,voucher,7,0.0,0.0
-143,Air France,1264169595809792000,economy,domestic,1,0.0,0.0
-144,Air France,1264169595809792000,travel,cheap,3,0.0,0.4
-145,Air France,1264169290237911046,fury,european,1,0.0,0.0
-146,Air France,1264169290237911046,rules,chaotic,1,-0.4939,0.0
-147,Air France,1264167091449577472,soldiers,wounded,1,0.0,0.0
-148,Air France,1264165328759721984,jets,modern,1,0.0,0.2
-149,Air France,1264165328759721984,burn,equal,3,0.0,0.0
-150,Air France,1264165328759721984,it,fully,4,0.0,0.0
-151,Air France,1264164432747335681,routes,domestic,1,0.0,0.0
-152,Air France,1264164432747335681,transavia,low,1,-0.2732,0.0
-153,Air France,1264164432747335681,cost,non low,1,-0.2732,0.0
-154,Air France,1264154930736238599,plans,reciprocal,1,0.0,0.0
-155,Air France,1264153873775841280,service,scheduled,1,0.0,0.0
-156,Air France,1264140888961429506,travel,rocketing,1,0.0,0.0
-157,Lufthansa,1264563549378093056,confirmations,respective,1,0.4215,0.0
-158,Lufthansa,1264563028508508161,social media,social,1,0.0,0.03333333333333333
-159,Lufthansa,1264563028508508161,social media,silent,3,0.0,0.0
-160,Lufthansa,1264562379599339534,mid june,mid,1,0.0,0.0
-161,Lufthansa,1264561835979624448,travel,international,1,0.0,0.0
-162,Lufthansa,1264561585596641280,man,lonely,1,-0.3612,-0.09999999999999998
-163,Lufthansa,1264561585596641280,man,happy,1,0.5719,0.8
-164,Lufthansa,1264561331165892609,it,not great,3,-0.5096,-0.4
-165,Lufthansa,1264561331165892609,lufthansa lufthansa de,soon,4,0.0,0.0
-166,Lufthansa,1264560651248287745,flights,long,1,0.0,-0.05
-167,Lufthansa,1264558134108061698,carrier,largest,1,0.0,0.0
-168,Lufthansa,1264557113008930820,mid june,mid,1,0.0,0.0
-169,Lufthansa,1264555544901279744,lufthansa,partially,4,0.0,-0.1
-170,Lufthansa,1264553485246230528,goibibo,asap,4,0.0,0.0
-171,Lufthansa,1264552069416927232,this,nightmare,7,0.0,0.0
-172,Lufthansa,1264549013401079809,government,federal,1,0.0,0.0
-173,Lufthansa,1264549013401079809,lufthansa,gradually,4,0.0,0.0
-174,Lufthansa,1264547178338541568,wave,2nd,1,0.0,0.0
-175,Lufthansa,1264545725481959424,vaccine,possible,3,0.0,0.0
-176,Lufthansa,1264545563439226880,citizens,european,1,0.0,0.0
-177,Lufthansa,1264545563439226880,man,patient,1,0.0,0.0
-178,Lufthansa,1264542660817301505,colleagues,online,1,0.0,0.0
-179,Lufthansa,1264542660817301505,they,not able,3,0.0,-0.25
-180,Lufthansa,1264542648712527872,cities,french,1,0.0,0.0
-181,Lufthansa,1264542176593285120,flights,cancelled,1,-0.25,0.0
-182,Lufthansa,1264541751014043648,mid june,mid,1,0.0,0.0
-183,Lufthansa,1264541153954869250,aircrafts,young,3,0.0,0.1
-184,Lufthansa,1264539409988362246,alexandretakacs,tough,1,-0.128,-0.3888888888888889
-185,Lufthansa,1264538699020320768,use,illegal,1,-0.5574,-0.5
-186,Lufthansa,1264538699020320768,this,disingenuous,3,0.0,0.0
-187,Lufthansa,1264536990244114433,reply,generic,1,0.0,0.0
-188,Lufthansa,1264536770085113857,mid june,mid,1,0.0,0.0
-189,Lufthansa,1264535503820304385,governm,german,1,0.0,0.0
-190,Lufthansa,1264534465038159872,at,present,1,0.0,0.0
-191,Lufthansa,1264532733411418115,haul,short,1,0.0,0.0
-192,Lufthansa,1264532733411418115,air,completely,4,0.0,0.1
-193,Lufthansa,1264532594567393280,flights,direct,1,0.0,0.1
-194,Lufthansa,1264532067133673472,fuel,new,1,0.0,0.13636363636363635
-195,Lufthansa,1264532067133673472,fuel,efficient,1,0.4215,0.0
-196,Lufthansa,1264532067133673472,aircraft,powered,1,0.0,0.0
-197,Lufthansa,1264532067133673472,it,787,7,0.0,0.0
-198,Lufthansa,1264530723781971970,it,much longer,4,0.0,0.2
-199,Lufthansa,1264529021133520896,than,usual,1,0.0,-0.25
-200,Lufthansa,1264529021133520896,lufthansa,completely,4,0.0,0.1
-201,Lufthansa,1264529021133520896,it,longer,4,0.0,0.0
-202,Lufthansa,1264528445255684097,wait,long,1,0.0,-0.05
-203,Lufthansa,1264528445255684097,than,usual,1,0.0,-0.25
-204,Lufthansa,1264528445255684097,it,longer,4,0.0,0.0
-205,Lufthansa,1264528079948402689,maker,swiss,1,0.0,0.0
-206,Lufthansa,1264528079948402689,fuel,clean,1,0.4019,0.3666666666666667
-207,Lufthansa,1264528079948402689,maker,boost,3,0.4019,0.0
-208,Lufthansa,1264525091259453440,sign,hopeful,1,0.5106,0.0
-209,Lufthansa,1264525091259453440,demand,little,1,0.0,-0.1875
-210,Lufthansa,1264525091259453440,mid june,mid,1,0.0,0.0
-211,Lufthansa,1264520386789736448,government,german,1,0.0,0.0
-212,Lufthansa,1264519885062881286,airlines,weakest,1,-0.5106,0.0
-213,Lufthansa,1264519885062881286,ci,normal,1,0.0,0.15
-214,Lufthansa,1264517665433047042,lilibellmia,very sorry,1,-0.1513,-0.65
-215,Lufthansa,1264517665433047042,flight,cancelled,1,-0.25,0.0
-216,Lufthansa,1264517665433047042,it,longer,4,0.0,0.0
-217,Lufthansa,1264515464442478596,airlines,international,1,0.0,0.0
-218,Lufthansa,1264514934458761216,system,sophisticated,1,0.5574,0.5
-219,Lufthansa,1264513221584719872,blog,live,1,0.0,0.13636363636363635
-220,Lufthansa,1264513134322221056,mail,malay,1,0.0,0.0
-221,Lufthansa,1264512979745116160,governm,german,1,0.0,0.0
-222,Lufthansa,1264511844988968960,flights,cheap,1,0.0,0.4
-223,Lufthansa,1264511463101620224,flights,cheap,1,0.0,0.4
-224,Lufthansa,1264508831176044545,new zeala,new,1,0.0,0.13636363636363635
-225,Lufthansa,1264508774477377542,greyhounds,irish,1,0.0,0.0
-226,Lufthansa,1264506710842097664,governme,german,1,0.0,0.0
-227,Lufthansa,1264506043771609088,jochenbiederm,fair,3,0.3182,0.7
-228,Lufthansa,1264505826217263104,government,german,1,0.0,0.0
-229,Lufthansa,1264504588440350721,it,months,7,0.0,0.0
-230,Lufthansa,1264500273722114048,flyswiss,austrian,1,0.0,0.0
-231,Lufthansa,1264499383472717825,lufthansa,nice,3,0.4215,0.6
-232,Lufthansa,1264499170527768576,mid june,mid,1,0.0,0.0
-233,Lufthansa,1264498791744495617,article,new,1,0.0,0.13636363636363635
-234,Lufthansa,1264496314332700672,request,new,1,0.0,0.13636363636363635
-235,Lufthansa,1264496285475897344,ideas,great,1,0.6249,0.8
-236,Lufthansa,1264496078503604224,fleet,small,1,0.0,-0.25
-237,Lufthansa,1264496078503604224,fleet,definitely,4,0.4019,0.0
-238,Lufthansa,1264495897494290432,airline,german,1,0.0,0.0
-239,Lufthansa,1264494775262208000,eurowings,low,1,-0.2732,0.0
-240,Lufthansa,1264494686003236870,trip,round,1,0.0,-0.2
-241,Lufthansa,1264492197010903042,countries,poor,1,-0.4767,-0.4
-242,Lufthansa,1264491799361597442,ai,turkish,1,0.0,0.0
-243,Lufthansa,1264490259104104453,service,horrendous,3,-0.5859,0.0
-244,Lufthansa,1264490259104104453,guys,disgrace,7,-0.4939,0.0
-245,Lufthansa,1264486032248131586,at,present,1,0.0,0.0
-246,Lufthansa,1264485550372917249,smartass,sassy,1,0.0,0.0
-247,Lufthansa,1264483220546039809,news,latest,1,0.0,0.5
-248,Lufthansa,1264483036336238592,outcome,best,1,0.6369,1.0
-249,Lufthansa,1264482442758553601,european airlines,covid19,1,0.0,0.0
-250,Lufthansa,1264482442758553601,european airlines,grounded,1,0.0,0.0
-251,Lufthansa,1264476026630963200,south african,south,1,0.0,0.0
-252,Lufthansa,1264476026630963200,8,turkish,1,0.0,0.0
-253,Lufthansa,1264472635280371717,economy,basic,1,0.0,0.0
-254,Lufthansa,1264472635280371717,economy,regular,1,0.0,0.0
-255,Lufthansa,1264472071599423488,it,possible,3,0.0,0.0
-256,Lufthansa,1264471427446702080,klm,right,3,0.0,0.2857142857142857
-257,Lufthansa,1264471427446702080,klm,it,7,0.0,0.0
-258,Lufthansa,1264469734256529408,dystopia,little,1,0.0,-0.1875
-259,Lufthansa,1264467254386855936,greyhounds,irish,1,0.0,0.0
-260,Lufthansa,1264467082453770240,agent,online,1,0.0,0.0
-261,Lufthansa,1264467082453770240,t,informed,1,0.0,0.0
-262,Lufthansa,1264465303645368320,question,good,1,0.4404,0.7
-263,Lufthansa,1264462202280574976,economy,basic,1,0.0,0.0
-264,Lufthansa,1264460960762335232,greyhounds,irish,1,0.0,0.0
-265,Lufthansa,1264456914483773441,government,german,1,0.0,0.0
-266,Lufthansa,1264453411237396480,greyhounds,irish,1,0.0,0.0
-267,Lufthansa,1264453075303116801,times,difficult,1,-0.3612,-0.5
-268,Lufthansa,1264441003806732289,talks,advanced,1,0.25,0.4
-269,Lufthansa,1264437667728629760,flights,€,7,0.0,0.0
-270,Lufthansa,1264436691630243840,thing,worse,3,-0.4767,-0.4
-271,Lufthansa,1264432019477598208,greyhounds,irish,1,0.0,0.0
-272,Lufthansa,1264430983690027008,face,familiar,1,0.0,0.375
-273,Lufthansa,1264428851490406407,flying,simple,1,0.0,0.0
-274,Lufthansa,1264424954134581248,government,german,1,0.0,0.0
-275,Lufthansa,1264407253592887296,jet,new,1,0.0,0.13636363636363635
-276,Lufthansa,1264407253592887296,b777,newly,1,0.0,0.13636363636363635
-277,Lufthansa,1264403460729913344,cry,little,1,0.0,-0.1875
-278,Lufthansa,1264403460729913344,person,kind,1,0.5267,0.6
-279,Lufthansa,1264400963311415297,advice,good,1,0.4404,0.7
-280,Lufthansa,1264396786921324544,greyhounds,irish,1,0.0,0.0
-281,Lufthansa,1264396296426622977,waves,ultrasonic,1,0.0,0.0
-282,Lufthansa,1264395529485778945,greyhounds,irish,1,0.0,0.0
-283,Lufthansa,1264395004526514176,delta,freakin,1,0.0,0.0
-284,Lufthansa,1264395004526514176,meal,extra,1,0.0,0.0
-285,Lufthansa,1264395004526514176,ppl,very sweet,1,0.5095,0.45499999999999996
-286,Lufthansa,1264381690497155079,greyhounds,irish,1,0.0,0.0
-287,Lufthansa,1264373008824590336,this,not money,7,0.0,0.0
-288,Lufthansa,1264369105639018498,greyhounds,irish,1,0.0,0.0
-289,Lufthansa,1264364675669491712,trend,real,1,0.0,0.2
-290,Lufthansa,1264361357937242114,government,german,1,0.0,0.0
-291,Lufthansa,1264353433374482434,american,italian,1,0.0,0.0
-292,Lufthansa,1264353432137334786,economy,basic,1,0.0,0.0
-293,Lufthansa,1264353432137334786,economy,regular,1,0.0,0.0
-294,Lufthansa,1264352747077480453,greyhounds,irish,1,0.0,0.0
-295,Lufthansa,1264349666520506373,economy,basic,1,0.0,0.0
-296,Lufthansa,1264345184898297857,economy,basic,1,0.0,0.0
-297,Lufthansa,1264345184898297857,economy,regular,1,0.0,0.0
-298,Lufthansa,1264342861115351040,economy,basic,1,0.0,0.0
-299,Lufthansa,1264342861115351040,economy,regular,1,0.0,0.0
-300,Lufthansa,1264342668102062080,economy,basic,1,0.0,0.0
-301,Lufthansa,1264342668102062080,economy,regular,1,0.0,0.0
-302,Lufthansa,1264340867688599552,flyingbrussels,austrian,1,0.0,0.0
-303,Lufthansa,1264340867688599552,evening,good,1,0.4404,0.7
-304,Lufthansa,1264340743533068290,evening,good,1,0.4404,0.7
-305,Lufthansa,1264340077578158082,evening,good,1,0.4404,0.7
-306,Lufthansa,1264339085101076480,economy,basic,1,0.0,0.0
-307,Lufthansa,1264339085101076480,economy,regular,1,0.0,0.0
-308,Lufthansa,1264330565182001153,flights,cancelled,1,-0.25,0.0
-309,Lufthansa,1264330565182001153,24th march,24th,1,0.0,0.0
-310,Lufthansa,1264329963240636428,chahtams,sorry,1,-0.0772,-0.5
-311,Lufthansa,1264329963240636428,colleagues,not able,3,0.0,-0.25
-312,Lufthansa,1264325065669312513,greyhounds,irish,1,0.0,0.0
-313,Lufthansa,1264322182374514688,issue,cancelled,1,-0.25,0.0
-314,Lufthansa,1264321290732781569,greyhounds,irish,1,0.0,0.0
-315,Lufthansa,1264320204093472769,bags,delayed,1,-0.2263,0.0
-316,Lufthansa,1264320204093472769,report,online,1,0.0,0.0
-317,Lufthansa,1264320060270817280,they,useless,3,-0.4215,-0.5
-318,Lufthansa,1264319744863350785,f,treacherous,1,0.0,0.0
-319,Lufthansa,1264318773328318464,greyhounds,irish,1,0.0,0.0
-320,Lufthansa,1264313448965554178,embassy,local,1,0.0,0.0
-321,Lufthansa,1264313448965554178,frairport,kindly,4,0.4939,0.6
-322,Lufthansa,1264312718401683457,flight,indirect,1,0.0,0.0
-323,Lufthansa,1264311885932965888,account,sobering,1,-0.2023,0.0
-324,Lufthansa,1264311885932965888,situation,currently dire,1,-0.4588,0.0
-325,Lufthansa,1264304897551466496,bailout,massive,1,0.0,0.0
-326,Lufthansa,1264301308816826369,ticket,issued,1,0.0,0.0
-327,Lufthansa,1264300073153855489,bans,worldwide,4,0.0,0.0
-328,Lufthansa,1264299937828929536,use,joint,1,0.0,0.0
-329,Lufthansa,1264299937828929536,weaselace,not use,7,0.0,0.0
-330,Lufthansa,1264297075983998981,lufthansa,fully,4,0.0,0.0
-331,Lufthansa,1264297018727346176,vv9x4b,vide,1,0.0,0.0
-332,Lufthansa,1264296714392961024,flights,international,1,0.0,0.0
-333,Lufthansa,1264296714392961024,minister,civil,1,0.0,0.0
-334,Lufthansa,1264295674822012928,it,not appreciated,3,-0.4023,-0.1
-335,Lufthansa,1264294086204248064,question,better,1,0.4404,0.5
-336,Lufthansa,1264294086204248064,video,obviously manipulated,1,-0.3818,0.0
-337,Lufthansa,1264294086204248064,account,eastern,1,0.0,0.0
-338,Lufthansa,1264291983364939778,funding,public,1,0.0,0.0
-339,Lufthansa,1264289833641553920,greyhounds,irish,1,0.0,0.0
-340,Lufthansa,1264287317143040000,greyhounds,irish,1,0.0,0.0
-341,Lufthansa,1264287269604728834,idea,good,1,0.4404,0.7
-342,Lufthansa,1264287243205836802,manufacturer,wide,1,0.0,-0.1
-343,Lufthansa,1264285737870143490,late june,late,1,0.0,-0.3
-344,Lufthansa,1264285737870143490,early july,early,1,0.0,0.1
-345,Lufthansa,1264282100456456192,offs,not lay,1,0.0,0.0
-346,Lufthansa,1264282100456456192,they,con,3,0.0,0.0
-347,Lufthansa,1264282100456456192,airlines,tight,4,0.0,-0.17857142857142858
-348,Lufthansa,1264276334265667584,feel,better,1,0.4404,0.5
-349,Lufthansa,1264272217921159169,greyhounds,irish,1,0.0,0.0
-350,Lufthansa,1264271504835035144,it,not possible,3,0.0,0.0
-351,Lufthansa,1264271504835035144,it,not unfortunately,4,0.2584,0.25
-352,Lufthansa,1264269463345561605,bernstein schrieb damals perfekt auf,lufthansa,7,0.0,0.0
-353,Lufthansa,1264267358744518657,news,sad,1,-0.4767,-0.5
-354,Lufthansa,1264267358744518657,operations,n't live,4,0.0,0.13636363636363635
+0,Air France,1264862785063849984,ceo,profitable,4,0.4404,0.0
+1,Air France,1264862065488846849,traffic,domestic,1,0.0,0.0
+2,Air France,1264861841433518080,force,hungarian,1,0.0,0.0
+3,Air France,1264860975322353664,atc,clearly,4,0.4019,0.10000000000000002
+4,Air France,1264858702298976257,force,hungarian,1,0.0,0.0
+5,Air France,1264858702298976257,east,heading,1,0.0,0.0
+6,Air France,1264857560848441349,government,moroccan,1,0.0,0.0
+7,Air France,1264857560848441349,g,new,1,0.0,0.13636363636363635
+8,Air France,1264857341226180611,air,thesame,1,0.0,0.0
+9,Air France,1264857341226180611,it,not funny,3,-0.3412,-0.125
+10,Air France,1264849354453667840,vouch,refundable,1,0.0,0.0
+11,Air France,1264849354453667840,they,oegally,4,0.0,0.0
+12,Air France,1264845466845446145,ben smith,ceo,7,0.0,0.0
+13,Air France,1264844472652873729,catalog,entire,1,0.0,0.0
+14,Air France,1264844342163910656,flights,commercial,1,0.0,0.0
+15,Air France,1264833274641371136,cooperation,technical,1,0.0,0.0
+16,Air France,1264824809353084929,way,green,1,0.0,-0.2
+17,Air France,1264824809353084929,emissions,domestic,1,0.0,0.0
+18,Air France,1264823452281843718,s,real,1,0.0,0.2
+19,Air France,1264822540939165696,emissions,domestic,1,0.0,0.0
+20,Air France,1264820027544518657,indian air force,indian,1,0.0,0.0
+21,Air France,1264820027544518657,indian air force,ready,3,0.3612,0.2
+22,Air France,1264819767120211974,traffic,domestic,1,0.0,0.0
+23,Air France,1264816917501665282,crisis,current,1,0.0,0.0
+24,Air France,1264807002229936128,cooperation,technical,1,0.0,0.0
+25,Air France,1264803823190671360,goals,real,1,0.0,0.2
+26,Air France,1264803823190671360,flieghts,inland,1,0.0,0.0
+27,Air France,1264800457907679232,traffic,domestic,1,0.0,0.0
+28,Air France,1264800123885948931,flights,domestic,1,0.0,0.0
+29,Air France,1264799711355113473,session,live,1,0.0,0.13636363636363635
+30,Air France,1264794806129061888,flights,international,1,0.0,0.0
+31,Air France,1264790296908496896,emissions,domestic,1,0.0,0.0
+32,Air France,1264787562645860361,consulate,french,1,0.0,0.0
+33,Air France,1264785281212768257,traffic,domestic,1,0.0,0.0
+34,Air France,1264784274160594945,traffic,domestic,1,0.0,0.0
+35,Air France,1264783761775792129,traffic,domestic,1,0.0,0.0
+36,Air France,1264781772958687232,bridges,likely,1,0.0,0.0
+37,Air France,1264776970685968384,government,french,1,0.0,0.0
+38,Air France,1264774018139217921,this,home,7,0.0,0.0
+39,Air France,1264748972221976576,acrobats,white,1,0.0,0.0
+40,Air France,1264748242245488640,blankets,small,1,0.0,-0.25
+41,Air France,1264745733468676098,traffic,domestic,1,0.0,0.0
+42,Air France,1264738552757325825,stars,ago,4,0.0,0.0
+43,Air France,1264721682067066880,american cemetery normandy,american,1,0.0,0.0
+44,Air France,1264721682067066880,military,american,1,0.0,0.0
+45,Air France,1264709726580772864,photographer,american,1,0.0,0.0
+46,Air France,1264708244569763840,photographer,american,1,0.0,0.0
+47,Air France,1264707996392833025,photographer,american,1,0.0,0.0
+48,Air France,1264702549531095040,minister,german,1,0.0,0.0
+49,Air France,1264696513722298369,flights,cancelled,1,-0.25,0.0
+50,Air France,1264690256760233989,plane,big,1,0.0,0.0
+51,Air France,1264690256760233989,mistake,big,1,0.0,0.0
+52,Air France,1264688437237395456,it,italy,7,0.0,0.0
+53,Air France,1264688437237395456,new york,u,7,0.0,0.0
+54,Air France,1264679907981955072,it,longer,4,0.0,0.0
+55,Air France,1264678727113474050,crisis,current,1,0.0,0.0
+56,Air France,1264677022887890944,speed,high,1,0.0,0.16
+57,Air France,1264675915751141381,friends,flemish,1,0.0,0.0
+58,Air France,1264674972129284097,deal,new,1,0.0,0.13636363636363635
+59,Air France,1264670070103592961,simulator,additional,1,0.0,0.0
+60,Air France,1264666383754772480,traffic,domestic,1,0.0,0.0
+61,Air France,1264661175419224064,franc,old,1,0.0,0.1
+62,Air France,1264659770545303552,emissions,domestic,1,0.0,0.0
+63,Air France,1264658531220951047,country,most nuclear,1,0.0,0.5
+64,Air France,1264658531220951047,france,country,7,0.0,0.0
+65,Air France,1264653604536881153,bookin,existing,1,0.0,0.0
+66,Air France,1264652121401634820,battle,24th,1,0.0,0.0
+67,Air France,1264652121401634820,aircraft,british,1,0.0,0.0
+68,Air France,1264649857085640716,shirt,embroidered,1,0.0,0.0
+69,Air France,1264649857085640716,shirt,lightweight,1,0.0,0.0
+70,Air France,1264648249459322881,polorugby,embroidered,1,0.0,0.0
+71,Air France,1264648249459322881,polorugby,lightweight,1,0.0,0.0
+72,Air France,1264647661207949313,polorugby,lightweight,1,0.0,0.0
+73,Air France,1264645079161024513,lightweight polo shirt polorugby,embroidered,1,0.0,0.0
+74,Air France,1264645079161024513,lightweight polo shirt polorugby,lightweight,1,0.0,0.0
+75,Air France,1264644290833264642,polorugby,embroidered,1,0.0,0.0
+76,Air France,1264644290833264642,polorugby,lightweight,1,0.0,0.0
+77,Air France,1264642263243726848,polorugby,embroidered,1,0.0,0.0
+78,Air France,1264642263243726848,polorugby,lightweight,1,0.0,0.0
+79,Air France,1264641511171514377,shirt,embroidered,1,0.0,0.0
+80,Air France,1264641511171514377,shirt,lightweight,1,0.0,0.0
+81,Air France,1264641414761254912,drones,turkish,1,0.0,0.0
+82,Air France,1264641414761254912,it,bad,3,-0.5423,-0.6999999999999998
+83,Air France,1264641131045928961,aircraft,long,3,0.0,-0.05
+84,Air France,1264641131045928961,engines,trent,7,0.0,0.0
+85,Air France,1264635555477946370,bomber,long,1,0.0,-0.05
+86,Air France,1264635555477946370,bomber,strategic,1,0.0,0.0
+87,Air France,1264635555477946370,messerschmitt,bomber,7,0.0,0.0
+88,Air France,1264634278131961856,clicking,so good,1,0.4927,0.7
+89,Air France,1264632509280681984,fix,statistical,1,0.0,0.0
+90,Air France,1264630201188790274,condition,french,1,0.0,0.0
+91,Air France,1264630201188790274,routes,not domestic,1,0.0,0.0
+92,Air France,1264628543708966914,cooperation,technical,1,0.0,0.0
+93,Air France,1264627703422103562,flights,short,1,0.0,0.0
+94,Air France,1264621289060405248,polorugby,embroidered,1,0.0,0.0
+95,Air France,1264621289060405248,polorugby,lightweight,1,0.0,0.0
+96,Air France,1264620369006166018,shirt,embroidered,1,0.0,0.0
+97,Air France,1264620369006166018,shirt,lightweight,1,0.0,0.0
+98,Air France,1264620191809335297,it,afte,7,0.0,0.0
+99,Air France,1264619668511379456,polorugby,embroidered,1,0.0,0.0
+100,Air France,1264619668511379456,polorugby,lightweight,1,0.0,0.0
+101,Air France,1264614663720972292,statisticians,familiar,3,0.0,0.375
+102,Air France,1264611832691646465,flights,daily,1,0.0,0.0
+103,Air France,1264609219518631939,italian air force,italian,1,0.0,0.0
+104,Air France,1264607885411135490,traffic,domestic,1,0.0,0.0
+105,Air France,1264605786379976706,sir,dear,1,0.3818,0.0
+106,Air France,1264604768573546496,air,domestic,1,0.0,0.0
+107,Air France,1264603475444449282,jasonbordoff,better,1,0.4404,0.5
+108,Air France,1264603475444449282,strings,green,1,0.0,-0.2
+109,Air France,1264603475444449282,strings,not unfortunately,4,0.2584,0.25
+110,Air France,1264602860018380801,command,9th,1,0.0,0.0
+111,Air France,1264602270261485570,fix,statistical,1,0.0,0.0
+112,Air France,1264602214011678720,example,latest,1,0.0,0.5
+113,Air France,1264602214011678720,conversation,different,3,0.0,0.0
+114,Air France,1264601565219807233,traffic,domestic,1,0.0,0.0
+115,Air France,1264599060100546569,traffic,domestic,1,0.0,0.0
+116,Air France,1264598423325618181,traffic,domestic,1,0.0,0.0
+117,Air France,1264598305473998849,traffic,domestic,1,0.0,0.0
+118,Air France,1264597738194436101,traffic,domestic,1,0.0,0.0
+119,Air France,1264596549834858498,nmtv aviation news,nmtv,1,0.0,0.0
+120,Air France,1264596549834858498,traffic,domestic,1,0.0,0.0
+121,Air France,1264594299322339328,traffic,domestic,1,0.0,0.0
+122,Air France,1264593639751053313,traffic,domestic,1,0.0,0.0
+123,Air France,1264593279049273344,traffic,domestic,1,0.0,0.0
+124,Air France,1264593269729759234,traffic,domestic,1,0.0,0.0
+125,Air France,1264592514763223040,traffic,domestic,1,0.0,0.0
+126,Air France,1264590689892995072,email,hardcopy,1,0.0,0.0
+127,Air France,1264590689892995072,ryanair,n't simply,4,0.0,0.0
+128,Air France,1264588018968559616,traffic,domestic,1,0.0,0.0
+129,Air France,1264587799824564226,emissions,domestic,1,0.0,0.0
+130,Air France,1264587607922610212,leaves,canadian,1,0.0,0.0
+131,Air France,1264587607922610212,it,not autumn,7,0.0,0.0
+132,Air France,1264587224173117441,traffic,domestic,1,0.0,0.0
+133,Air France,1264586962565881858,traffic,domestic,1,0.0,0.0
+134,Air France,1264584322000044035,indian air force,indian,1,0.0,0.0
+135,Air France,1264584237035868161,day,memorial,1,0.0,0.0
+136,Air France,1264581833175506949,traffic,domestic,1,0.0,0.0
+137,Air France,1264581833175506949,it,start,7,0.0,0.0
+138,Air France,1264580695202111488,jacdecnew,high,4,0.0,0.16
+139,Air France,1264580695202111488,nose,sentence,7,0.0772,0.0
+140,Air France,1264578093869674496,way,good,1,0.4404,0.7
+141,Air France,1264578093869674496,use,better,1,0.4404,0.5
+142,Air France,1264578093869674496,traffic,domestic,1,0.0,0.0
+143,Air France,1264575110230523908,traffic,domestic,1,0.0,0.0
+144,Air France,1264571859481198594,effect,immediate,1,0.0,0.0
+145,Air France,1264569264863948803,flights,short,1,0.0,0.0
+146,Air France,1264568656366796800,traffic,domestic,1,0.0,0.0
+147,Air France,1264566510267314176,traffic,domestic,1,0.0,0.0
+148,Air France,1264565197483601920,traffic,domestic,1,0.0,0.0
+149,Air France,1264564323579559940,forces,armed,1,0.0,0.0
+150,Air France,1264564323579559940,way,secure,1,0.34,0.4
+151,Air France,1264562630838161409,traffic,domestic,1,0.0,0.0
+152,Air France,1264562555990577152,traffic,domestic,1,0.0,0.0
+153,Air France,1264561558954348544,traffic,domestic,1,0.0,0.0
+154,Air France,1264560158736334849,traffic,domestic,1,0.0,0.0
+155,Air France,1264559445591363585,minister,french,1,0.0,0.0
+156,Air France,1264559445591363585,traffic,domestic,1,0.0,0.0
+157,Air France,1264559445591363585,mail,malay,1,0.0,0.0
+158,Air France,1264558154135658503,traffic,domestic,1,0.0,0.0
+159,Air France,1264556771504504832,traffic,domestic,1,0.0,0.0
+160,Air France,1264555769686396928,traffic,domestic,1,0.0,0.0
+161,Air France,1264554694422040577,traffic,domestic,1,0.0,0.0
+162,Air France,1264553568469729280,traffic,domestic,1,0.0,0.0
+163,Air France,1264552122940559360,flights,direct,1,0.0,0.1
+164,Air France,1264551996499079169,traffic,domestic,1,0.0,0.0
+165,Air France,1264550987953364992,traffic,domestic,1,0.0,0.0
+166,Air France,1264550986976071680,traffic,domestic,1,0.0,0.0
+167,Air France,1264550984534986752,traffic,domestic,1,0.0,0.0
+168,Air France,1264549801367986176,air,hot,1,0.0,0.25
+169,Air France,1264549716915826693,air france,forward,4,0.0,0.0
+170,Air France,1264549598573412353,traffic,domestic,1,0.0,0.0
+171,Air France,1264548877123887104,article,new,1,0.0,0.13636363636363635
+172,Air France,1264548877123887104,traffic,domestic,1,0.0,0.0
+173,Air France,1264548116021350400,traffic,domestic,1,0.0,0.0
+174,Air France,1264547896034197505,traffic,domestic,1,0.0,0.0
+175,Air France,1264546818555121664,dame,grand,1,0.4588,0.5
+176,Air France,1264546818555121664,lame,little,1,0.0,-0.1875
+177,Air France,1264546814415388672,dame,grand,1,0.4588,0.5
+178,Air France,1264546814415388672,lame,little,1,0.0,-0.1875
+179,Air France,1264546810283962370,dame,grand,1,0.4588,0.5
+180,Air France,1264546810283962370,lame,little,1,0.0,-0.1875
+181,Air France,1264546155821780996,speed,high,1,0.0,0.16
+182,Air France,1264545062433837062,traffic,domestic,1,0.0,0.0
+183,Air France,1264544794572972035,2,good,3,0.4404,0.7
+184,Lufthansa,1264862754562871297,government,german,1,0.0,0.0
+185,Lufthansa,1264862410692796416,government,german,1,0.0,0.0
+186,Lufthansa,1264862362693230594,greyhounds,irish,1,0.0,0.0
+187,Lufthansa,1264861862446927872,government,german,1,0.0,0.0
+188,Lufthansa,1264861422296666115,dax,excited,3,0.34,0.375
+189,Lufthansa,1264860895500369921,government,german,1,0.0,0.0
+190,Lufthansa,1264860142111080449,government,german,1,0.0,0.0
+191,Lufthansa,1264859962427277316,time,normal,1,0.0,0.15
+192,Lufthansa,1264859947709468672,4th july,4th,1,0.0,0.0
+193,Lufthansa,1264859947709468672,lufthansa,normally,4,0.0,0.15
+194,Lufthansa,1264859431931727872,mid june,mid,1,0.0,0.0
+195,Lufthansa,1264859361039593475,government,german,1,0.0,0.0
+196,Lufthansa,1264859117988065280,mid june,mid,1,0.0,0.0
+197,Lufthansa,1264858854015336448,government,german,1,0.0,0.0
+198,Lufthansa,1264858016316362753,government,german,1,0.0,0.0
+199,Lufthansa,1264857773549907974,value,new,1,0.0,0.13636363636363635
+200,Lufthansa,1264857773549907974,value,highe,3,0.0,0.0
+201,Lufthansa,1264857568230486016,german economy ministry,german,1,0.0,0.0
+202,Lufthansa,1264857568230486016,stage,advanced,1,0.25,0.4
+203,Lufthansa,1264857568230486016,talks,rtrs,7,0.0,0.0
+204,Lufthansa,1264856708045844481,government,german,1,0.0,0.0
+205,Lufthansa,1264855296029138945,government,german,1,0.0,0.0
+206,Lufthansa,1264855296029138945,deal,much anticipated,1,0.0,0.2
+207,Lufthansa,1264855073345032202,government,german,1,0.0,0.0
+208,Lufthansa,1264854865328685056,government,german,1,0.0,0.0
+209,Lufthansa,1264854865328685056,deal,much anticipated,1,0.0,0.2
+210,Lufthansa,1264854852225634305,t,impossible,1,0.0,-0.6666666666666666
+211,Lufthansa,1264854844814372864,flight,cancelled,1,-0.25,0.0
+212,Lufthansa,1264854454442082304,government,german,1,0.0,0.0
+213,Lufthansa,1264854433193775104,government,german,1,0.0,0.0
+214,Lufthansa,1264853856195919872,govt,german,1,0.0,0.0
+215,Lufthansa,1264853732736540673,govt,german,1,0.0,0.0
+216,Lufthansa,1264853684288131072,government,german,1,0.0,0.0
+217,Lufthansa,1264853481401221121,bag,second,1,0.0,0.0
+218,Lufthansa,1264853481401221121,bag,smaller,1,0.0,0.0
+219,Lufthansa,1264853127393685505,govt,german,1,0.0,0.0
+220,Lufthansa,1264853105499406336,govt,german,1,0.0,0.0
+221,Lufthansa,1264852375740854273,than,usual,1,0.0,-0.25
+222,Lufthansa,1264852348129685505,schedule,filed,1,0.0,0.0
+223,Lufthansa,1264852348129685505,routesonline avgeek,routesonline,1,0.0,0.0
+224,Lufthansa,1264851032221331456,greyhounds,irish,1,0.0,0.0
+225,Lufthansa,1264848775106793472,spotlight,digital,1,0.0,0.0
+226,Lufthansa,1264847622633852928,tit,specific,1,0.0,0.0
+227,Lufthansa,1264847622633852928,tit,yet vague,1,-0.1027,-0.5
+228,Lufthansa,1264847622633852928,thumbnail,not content,7,0.0,0.0
+229,Lufthansa,1264846148025700356,point,interesting,1,0.4019,0.5
+230,Lufthansa,1264846148025700356,lufthansa,apparently,4,0.0,0.05
+231,Lufthansa,1264844805076484097,behavior,criminal,1,-0.5267,-0.4
+232,Lufthansa,1264844765444616192,schedule,ago,4,0.0,0.0
+233,Lufthansa,1264844295250432000,legal date,maximum,1,0.0,0.0
+234,Lufthansa,1264844295250432000,legal date,legal,1,0.128,0.2
+235,Lufthansa,1264843711264915457,right,legal,1,0.128,0.2
+236,Lufthansa,1264843711264915457,it,right,7,0.0,0.2857142857142857
+237,Lufthansa,1264843470537097221,complaint,formal,1,0.0,0.0
+238,Lufthansa,1264843333261819904,business,business,7,0.0,0.0
+239,Lufthansa,1264843333261819904,rentals,filin,7,0.0,0.0
+240,Lufthansa,1264843215120863234,airport,busiest,1,0.0,0.0
+241,Lufthansa,1264843215120863234,frankfurt,definitely,4,0.4019,0.0
+242,Lufthansa,1264843215120863234,frankfurt,airport,7,0.0,0.0
+243,Lufthansa,1264842975995146240,question,short,1,0.0,0.0
+244,Lufthansa,1264842975995146240,lufthansa,hi,6,0.0,0.0
+245,Lufthansa,1264841708489113605,environment,german,1,0.0,0.0
+246,Lufthansa,1264841413994446848,allan,welcome,1,0.4588,0.8
+247,Lufthansa,1264841236545974272,fare,light,1,0.0,0.4
+248,Lufthansa,1264839801770999810,airlines,long,4,0.0,-0.05
+249,Lufthansa,1264836858443423744,lufthansa a380,short,3,0.0,0.0
+250,Lufthansa,1264832591812874246,speed,normal,1,0.0,0.15
+251,Lufthansa,1264832591812874246,refunds,not currently,4,0.0,0.0
+252,Lufthansa,1264832436363505664,this,unsurprisingly,4,0.0,0.0
+253,Lufthansa,1264831882413461504,flights,canceled,1,0.0,0.0
+254,Lufthansa,1264826958350897154,way,feasible,1,0.0,0.0
+255,Lufthansa,1264826958350897154,flights,lufth,7,0.0,0.0
+256,Lufthansa,1264825081638912000,shot,beautiful,1,0.5994,0.85
+257,Lufthansa,1264824610920574976,economy,basic,1,0.0,0.0
+258,Lufthansa,1264824610920574976,656,regular,1,0.0,0.0
+259,Lufthansa,1264824012003303425,it,weeks,7,0.0,0.0
+260,Lufthansa,1264821801252683781,point,right,1,0.0,0.2857142857142857
+261,Lufthansa,1264821801252683781,they,point,7,0.0,0.0
+262,Lufthansa,1264821091756683264,lufthansa,dear,1,0.3818,0.0
+263,Lufthansa,1264821091756683264,as,possible,1,0.0,0.0
+264,Lufthansa,1264820601811873792,offer,similar,1,0.0,0.0
+265,Lufthansa,1264820244553531392,lufthansa,biggest,1,0.0,0.0
+266,Lufthansa,1264820244553531392,bailout,german,1,0.0,0.0
+267,Lufthansa,1264820244553531392,co,potential,1,0.0,0.0
+268,Lufthansa,1264820012004585472,refunds,longer,4,0.0,0.0
+269,Lufthansa,1264818320148172801,the second half of june,second,1,0.0,0.0
+270,Lufthansa,1264818296232312833,12th march,12th,1,0.0,0.0
+271,Lufthansa,1264818136869675008,flights,cancelled,1,-0.25,0.0
+272,Lufthansa,1264817460458512384,entity,bankrupt,1,-0.5574,0.0
+273,Lufthansa,1264813098113945601,government,german,1,0.0,0.0
+274,Lufthansa,1264811606954905602,government,german,1,0.0,0.0
+275,Lufthansa,1264810823115030529,email,single,1,0.0,-0.07142857142857142
+276,Lufthansa,1264806798952931330,40000 ft heading southwes,heading,1,0.0,0.0
+277,Lufthansa,1264796711454756865,mid june,mid,1,0.0,0.0
+278,Lufthansa,1264796083294789632,flight,scheduled,1,0.0,0.0
+279,Lufthansa,1264794368273047552,mar,25th,1,0.0,0.0
+280,Lufthansa,1264792968457621507,flight,scheduled,1,0.0,0.0
+281,Lufthansa,1264792968457621507,it,flight,7,0.0,0.0
+282,Lufthansa,1264787112710332420,date,available,1,0.0,0.4
+283,Lufthansa,1264787112710332420,connection,not unfortunately,4,0.2584,0.25
+284,Lufthansa,1264786857910587392,greyhounds,irish,1,0.0,0.0
+285,Lufthansa,1264785973226999818,government,german,1,0.0,0.0
+286,Lufthansa,1264783104276697088,flights,cancelled,1,-0.25,0.0
+287,Lufthansa,1264774450383372288,airline,german,1,0.0,0.0
+288,Lufthansa,1264769241905012739,greyhounds,irish,1,0.0,0.0
+289,Lufthansa,1264763373675151361,these,pics,7,0.0,0.0
+290,Lufthansa,1264750367465668609,greyhounds,irish,1,0.0,0.0
+291,Lufthansa,1264729807738134528,it,possible,3,0.0,0.0
+292,Lufthansa,1264728649691004928,airline,latest,1,0.0,0.5
+293,Lufthansa,1264728649691004928,airline,international,1,0.0,0.0
+294,Lufthansa,1264728649691004928,lufthansa,airline,7,0.0,0.0
+295,Lufthansa,1264728534632681472,banker,passing,1,0.0,0.0
+296,Lufthansa,1264726578690310145,this,daigx,7,0.0,0.0
+297,Lufthansa,1264726459752632320,greyhounds,irish,1,0.0,0.0
+298,Lufthansa,1264726075197685761,on,final,1,0.0,0.0
+299,Lufthansa,1264726075197685761,this,daigx,7,0.0,0.0
+300,Lufthansa,1264725698863747073,on,final,1,0.0,0.0
+301,Lufthansa,1264725698863747073,this,daigv,7,0.0,0.0
+302,Lufthansa,1264725445209198597,zones,different,1,0.0,0.0
+303,Lufthansa,1264725103033516033,this,daigv,7,0.0,0.0
+304,Lufthansa,1264724991901421568,it,normal,3,0.0,0.15
+305,Lufthansa,1264724793921683457,this,daigm,7,0.0,0.0
+306,Lufthansa,1264723732226080768,refund,possible,3,0.0,0.0
+307,Lufthansa,1264723697711017984,this,daigv,7,0.0,0.0
+308,Lufthansa,1264723187268452353,airline,largest,1,0.0,0.0
+309,Lufthansa,1264722620827795456,economy,basic,1,0.0,0.0
+310,Lufthansa,1264722620827795456,economy,regular,1,0.0,0.0
+311,Lufthansa,1264720681008275457,economy,basic,1,0.0,0.0
+312,Lufthansa,1264720681008275457,economy,regular,1,0.0,0.0
+313,Lufthansa,1264720068690100225,this,daigv,7,0.0,0.0
+314,Lufthansa,1264719762577174529,this,daigv,7,0.0,0.0
+315,Lufthansa,1264719426990911488,this,daign,7,0.0,0.0
+316,Lufthansa,1264719088221216768,this,daign,7,0.0,0.0
+317,Lufthansa,1264718656937680897,this,daigm,7,0.0,0.0
+318,Lufthansa,1264718138223910912,this,daigl,7,0.0,0.0
+319,Lufthansa,1264717635184291841,this,daifc,7,0.0,0.0
+320,Lufthansa,1264715922465533953,economy,basic,1,0.0,0.0
+321,Lufthansa,1264715922465533953,economy,regular,1,0.0,0.0
+322,Lufthansa,1264715339927105545,airline,largest,1,0.0,0.0
+323,Lufthansa,1264712064901226502,economy,basic,1,0.0,0.0
+324,Lufthansa,1264712064901226502,656,regular,1,0.0,0.0

@@ -1,1 +1,2 @@
-python_codes/get_data/credentials/
+src/get_data/credentials/
+.env

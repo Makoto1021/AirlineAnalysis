@@ -130,9 +130,8 @@ def categorise_nouns(df, nlp):
         df_vectors_sub['count'] = df_sub['count'].values
 
     df["tb_importance"] = df["count"] * df["mean_polarity_textblob"]
-    df_categorised = df.groupby(["product_id", "group"]).apply(weighted_ave).reset_index()
     
-    return df_categorised
+    return df
 
 
 
@@ -189,3 +188,7 @@ def prepare_data():
     # categorise nouns
     df_categorised = categorise_nouns(df=df_grouped, nlp=nlp)
     df_categorised.to_csv("/Users/mmiyazaki/Documents/My project/Airline_analysis/src/data/df_categorised.csv")
+
+    # compute weighted average of sentiments
+    df_final = df_categorised.groupby(["product_id", "group"]).apply(weighted_ave).reset_index()
+    df_final.to_csv("/Users/mmiyazaki/Documents/My project/Airline_analysis/src/data/df_final.csv")

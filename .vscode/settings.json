@@ -3,5 +3,6 @@
     "python.pipenvPath": "/Users/mmiyazaki/Library/Python/3.6/bin/pipenv",
     "vsintellicode.python.completionsEnabled": false,
     "python.linting.pylintEnabled": true,
-    "python.linting.enabled": true
+    "python.linting.enabled": true,
+    "browser-preview.startUrl": "file:///Users/mmiyazaki/Documents/My%20project/Airline_analysis/body.html"
 }

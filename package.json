@@ -1,0 +1,23 @@
+{
+  "name": "airline_analysis",
+  "version": "1.0.0",
+  "description": "Scrapes the tweets about airline companies and run Aspect Based Sentiment Analysis",
+  "main": "app.js",
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Makoto1021/AirlineAnalysis.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Makoto1021/AirlineAnalysis/issues"
+  },
+  "homepage": "https://github.com/Makoto1021/AirlineAnalysis#readme"
+}

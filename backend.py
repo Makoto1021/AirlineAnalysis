@@ -5,18 +5,20 @@ import json
 import time
 import random
 import ast
+import os
+from flask import Flask, request, jsonify
+app = Flask(__name__)
 
-score_table = "tweepy_analysis_by_companies"
-tweet_id_table = "tweepy_aspect_sentiment_categorised"
-tweets_table = "URL_removed"
-
+cdir = os.getcwd()
+score_table = os.path.join(cdir, "/src/data/df_final.csv")
+tweet_id_table = os.path.join(cdir, "/src/data/df_categorised.csv")
+tweets_table = os.path.join(cdir, "/src/data/raw_tweets.csv")
 
 
 # function to get the dataframe based on the choice from the dropdown
 # columns included: 'group', 'weighted_ave_tb'
 def get_dataset_selection(company):
     df = pd.read_csv(score_table)
-    # df = df[df.product_id == company][['group', 'weighted_ave_tb']]
     new = df["product_id"].isin(company)
     df = df[new][['product_id', 'group', 'weighted_ave_tb']]
     print("df.columns", df.columns)
@@ -74,7 +76,7 @@ def get_table(params):
     # top5_pos = top5_pos.to_html(classes=['table', 'table-bordered'], index=False, na_rep='')
     # top5_neg = top5_neg.to_html(classes=['table', 'table-bordered'], index=False, na_rep='')
     data = { 'table_pos' : top5_pos, 'table_neg' : top5_neg }
-    json.dumps(data)
+    # json.dumps(data)
     # return json.dumps({'table_pos':top5_pos, "table_neg":top5_neg})
     return json.dumps(data)
     

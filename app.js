@@ -1,3 +1,10 @@
+/*
+require('dotenv').config();
+console.log(process.env);
+
+const fetch = require('node-fetch');
+global.Headers = fetch.Headers;
+*/
 let defaultBackGroundColors = ['rgb(252, 66, 123, 0.5)', 'rgb(22, 160, 133, 0.5)','rgb(52, 152, 219, 0.5)','rgb(155, 89, 182, 0.5)',
                       'rgb(126, 214, 223, 0.5)','rgb(59, 62, 172, 0.5)','rgb(0, 153, 198, 0.5)','rgb(221, 68, 119, 0.5)',
                       'rgb(102, 170, 0, 0.5)','rgb(184, 46, 46, 0.5)','rgb(49, 99, 149, 0.5)','rgb(153, 68, 153, 0.5)',
@@ -30,7 +37,8 @@ function onBarClicked(company, category) {
     };
     console.log("stringify json", JSON.stringify(params))
     
-    let url = getWebAppBackendUrl('/get_table')+'/'+JSON.stringify(params);
+    // let url = getWebAppBackendUrl('/get_table')+'/'+JSON.stringify(params);
+    let url = 'http://127.0.0.1:7990'+'/get_table' + '/'+JSON.stringify(params); 
     let promise = fetch(url, init) 
                    .then(function(response) {
                        response.json()
@@ -81,7 +89,8 @@ function addRowHandlers(id, data, company, category) {
             };
             
             // This is to add tweets tables
-            let url1 = getWebAppBackendUrl('/get_tweets_table')+'/'+JSON.stringify(params);
+            // let url1 = getWebAppBackendUrl('/get_tweets_table')+'/'+JSON.stringify(params);
+            let url = 'http://127.0.0.1:7990' + '/get_tweets_table' +'/'+JSON.stringify(params);
             let promise1 = fetch(url1, init).then(function(response) {
                 response.json()
                     .then(function(data){
@@ -125,7 +134,8 @@ document.getElementById('button').onclick = function(){
         'companies':companies
     }
 
-    let url = getWebAppBackendUrl('/get_stats')+'/'+JSON.stringify(params)
+    // let url = getWebAppBackendUrl('/get_stats')+'/'+JSON.stringify(params)
+    let url = 'http://127.0.0.1:7990' + '/get_stats' + '/'+JSON.stringify(params)
     let promise = fetch(url, init) 
                    .then(function(response){
                        response.json()
@@ -155,7 +165,8 @@ function setFilterOptions(){
         headers : headers
     }
 
-    let url = getWebAppBackendUrl('/get_filter_values')
+    // let url = getWebAppBackendUrl('/get_filter_values')
+    let url = 'http://127.0.0.1:7990' + '/get_filter_values'
     let promise = fetch(url, init)
                    .then(function(response){
                        response.json()
