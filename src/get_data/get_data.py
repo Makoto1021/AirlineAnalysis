@@ -3,9 +3,6 @@ import pandas as pd
 import tweepy
 import sys
 import os
-# import jsonpickle
-
-
 
 def get_data():
 

@@ -1,5 +1,5 @@
 from get_data.get_data import get_data
-from prepare_data.prepare_data_dep import prepare_data
+from prepare_data.prepare_data import prepare_data
 import time
 
 
